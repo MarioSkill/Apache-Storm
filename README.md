@@ -15,7 +15,8 @@ Instala todos los componentes necesarios para ejecutar Apache Storm
 * [Version 1](https://github.com/MarioSkill/Apache-Storm/archive/master.zip)
 
 ## Usage
-```docker run --name STORM_11_07_2016_46_870c2049c1a9c326a71f75cec66fd6e8 -m 4880m -v /var/www/default/TFG2/src/BenchmarkBundle/Resources/public/tfg/resources/:/bigData/ -dit ubuntu-storm:latest /bigData/medir_STORM.sh```
+* 1º docker pull marioskill/apache-storm
+* 2º ```docker run --name STORM_11_07_2016_46_870c2049c1a9c326a71f75cec66fd6e8 -m 4880m -v /var/www/default/TFG2/src/BenchmarkBundle/Resources/public/tfg/resources/:/bigData/ -dit ubuntu-storm:latest /bigData/medir_STORM.sh```
 
 ## MEDIR_STORM.SH 
 ```
